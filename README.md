@@ -90,13 +90,13 @@ Implementá los siguientes endpoints para gestionar productos.
 
 | Método | Ruta | Parámetros | Estado |
 |--------|------|------------|--------|
-| GET | `/api/usuarios` | — | ⬜ |
-| POST | `/api/usuarios` | body: `nombre`, `email`, `contrasena` | ⬜ |
-| GET | `/api/usuarios/:id` | param: `id` | ⬜ |
-| GET | `/api/productos` | — | ⬜ |
-| POST | `/api/productos` | body: `nombre`, `categoria`, `precio`, `stock` (opcional) | ⬜ |
-| GET | `/api/productos/:id` | param: `id` | ⬜ |
-| PUT | `/api/productos/:id` | param: `id`, body: campos a modificar | ⬜ |
+| GET | `/api/usuarios` | — | ✅ |
+| POST | `/api/usuarios` | body: `nombre`, `email`, `contrasena` | ✅ |
+| GET | `/api/usuarios/:id` | param: `id` | ✅ |
+| GET | `/api/productos` | — | ✅ |
+| POST | `/api/productos` | body: `nombre`, `categoria`, `precio`, `stock` (opcional) | ✅ |
+| GET | `/api/productos/:id` | param: `id` | ✅ |
+| PUT | `/api/productos/:id` | param: `id`, body: campos a modificar | ✅ |
 
 ---
 
